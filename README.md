@@ -2,6 +2,7 @@
 
 - https://mmistakes.github.io/minimal-mistakes/
 - https://github.com/mmistakes/minimal-mistakes
+- https://unsplash.com/t/nature
 
 ## 환경구성
 
@@ -38,6 +39,26 @@ collections:
 ```
 
 ## layout
+
+### ex
+
+```
+title: "Layout: Post with Table of Contents"
+header:
+  overlay_image: assets/images/sky.jpg
+categories:
+  - Layout
+gallery:
+  - url: /assets/sky.jpg
+    image_path: assets/images/sky.jpg
+    alt: "placeholder image 1"
+  - url: /assets/sky.jpg
+    image_path: assets/images/sky.jpg
+    alt: "placeholder image 2"
+  - url: /assets/sky.jpg
+    image_path: assets/images/sky.jpg
+    alt: "placeholder image 3"
+```
 
 ### header
 

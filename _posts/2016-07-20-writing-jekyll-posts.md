@@ -4,11 +4,24 @@ header:
   overlay_image: assets/images/sky.jpg
 categories:
   - Layout
+gallery:
+  - url: /assets/sky.jpg
+    image_path: assets/images/sky.jpg
+    alt: "placeholder image 1"
+  - url: /assets/sky.jpg
+    image_path: assets/images/sky.jpg
+    alt: "placeholder image 2"
+  - url: /assets/sky.jpg
+    image_path: assets/images/sky.jpg
+    alt: "placeholder image 3"
 ---
 
 "Stick" table of contents to the top of a page by adding `toc_sticky: true` to its YAML Front Matter.
 
 **Note:** `search: false` only works to exclude posts when using **Lunr** as a search provider.
+
+
+{% include gallery caption="This is a sample gallery to go along with this case study." %}
 
 ```yaml
 ---
