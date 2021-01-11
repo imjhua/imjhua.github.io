@@ -6,7 +6,9 @@ categories:
   - Layout
 ---
 
-Enable table of contents on post or page by adding `toc: true` to its YAML Front Matter. The title and icon can also be changed with:
+"Stick" table of contents to the top of a page by adding `toc_sticky: true` to its YAML Front Matter.
+
+**Note:** `search: false` only works to exclude posts when using **Lunr** as a search provider.
 
 ```yaml
 ---
@@ -15,6 +17,27 @@ toc_label: "Unique Title"
 toc_icon: "heart"  # corresponding Font Awesome icon name (without fa prefix)
 ---
 ```
+
+
+```sh
+$ aaa
+```
+
+
+```css
+.asdf{
+  x:y;
+}
+```
+
+
+```html
+<a>sd</a>
+```
+
+
+<iframe id="iframe" class="iframe" src="https://htmlpreview.github.io/?https://github.com/imjhua/animation/blob/master/linear-gradient/index.html"></iframe>
+
 
 ## HTML Elements
 
