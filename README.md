@@ -1,5 +1,8 @@
 # https://imjhua.github.io
 
+- https://mmistakes.github.io/minimal-mistakes/
+- https://github.com/mmistakes/minimal-mistakes
+
 ## 환경구성
 
 ```sh
