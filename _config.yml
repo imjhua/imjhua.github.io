@@ -283,5 +283,7 @@ defaults:
       layout: single
       author_profile: true
       share: # true
+      sidebar:
+        nav: "resume"
 
 github: [metadata]
