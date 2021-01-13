@@ -4,53 +4,77 @@ header:
   overlay_image: assets/images/sky.jpg
 categories:
   - Layout
-gallery:
-  - url: /assets/sky.jpg
-    image_path: assets/images/sky.jpg
-    alt: "placeholder image 1"
-  - url: /assets/sky.jpg
-    image_path: assets/images/sky.jpg
-    alt: "placeholder image 2"
-  - url: /assets/sky.jpg
-    image_path: assets/images/sky.jpg
-    alt: "placeholder image 3"
 ---
 
-"Stick" table of contents to the top of a page by adding `toc_sticky: true` to its YAML Front Matter.
+첫번째 줄
 
-**Note:** `search: false` only works to exclude posts when using **Lunr** as a search provider.
+컨텐츠! 시작!
 
+## link
 
-{% include gallery caption="This is a sample gallery to go along with this case study." %}
+- [Twitter Cards](https://dev.twitter.com/cards/overview)
+- [custom sidebars](https://mmistakes.github.io/minimal-mistakes/docs/layouts/#sidebars)
+
+## notice
+
+notice
+{: .notice}
+
+notice--info
+{: .notice--info}
+
+notice--warning
+{: .notice--warning}
+
+notice--danger
+{: .notice--danger}
+
+## button
+
+[button]({{ "/docs/quick-start-guide/" | relative_url }}){: .btn}
+
+[button]({{ "/docs/quick-start-guide/" | relative_url }}){: .btn .btn--info}
+
+[button]({{ "/docs/quick-start-guide/" | relative_url }}){: .btn .btn--success}
+
+[button]({{ "/docs/quick-start-guide/" | relative_url }}){: .btn .btn--warning}
+
+[button]({{ "/docs/quick-start-guide/" | relative_url }}){: .btn .btn--danger}
+
+[button]({{ "/docs/quick-start-guide/" | relative_url }}){: .btn .btn--danger .btn--large}
+
+## code block
 
 ```yaml
 ---
 toc: true
-toc_label: "Unique Title"
-toc_icon: "heart"  # corresponding Font Awesome icon name (without fa prefix)
 ---
-```
 
+```
 
 ```sh
-$ aaa
+$ sh
 ```
 
-
 ```css
-.asdf{
-  x:y;
+.css {
+  x: y;
 }
 ```
 
-
 ```html
-<a>sd</a>
+<a>html</a>
 ```
 
+```js
+console.log("js");
+```
 
-<iframe id="iframe" class="iframe" src="https://htmlpreview.github.io/?https://github.com/imjhua/animation/blob/master/linear-gradient/index.html"></iframe>
+## test
 
+test
+
+<!-- <iframe id="iframe" class="iframe" src="https://htmlpreview.github.io/?https://github.com/imjhua/animation/blob/master/linear-gradient/index.html"></iframe> -->
 
 ## HTML Elements
 
@@ -58,73 +82,19 @@ Below is just about everything you'll need to style in the theme. Check the sour
 
 ## Body text
 
-Lorem ipsum dolor sit amet, test link adipiscing elit. **This is strong**. Nullam dignissim convallis est. Quisque aliquam.
-
-![Smithsonian Image]({{ site.url }}{{ site.baseurl }}/assets/images/3953273590_704e3899d5_m.jpg)
+![Smithsonian Image]({{ site.url }}{{ site.baseurl }}/assets/images/sky.jpg)
 {: .image-right}
-
-*This is emphasized*. Donec faucibus. Nunc iaculis suscipit dui. 53 = 125. Water is H2O. Nam sit amet sem. Aliquam libero nisi, imperdiet at, tincidunt nec, gravida vehicula, nisl. The New York Times (That’s a citation). Underline.Maecenas ornare tortor. Donec sed tellus eget sapien fringilla nonummy. Mauris a ante. Suspendisse quam sem, consequat at, commodo vitae, feugiat in, nunc. Morbi imperdiet augue quis tellus.
-
-HTML and CSS are our tools. Mauris a ante. Suspendisse quam sem, consequat at, commodo vitae, feugiat in, nunc. Morbi imperdiet augue quis tellus. Praesent mattis, massa quis luctus fermentum, turpis mi volutpat justo, eu volutpat enim diam eget metus.
-
-### Blockquotes
-
-> Lorem ipsum dolor sit amet, test link adipiscing elit. Nullam dignissim convallis est. Quisque aliquam.
-
-## List Types
-
-### Ordered Lists
-
-1. Item one
-   1. sub item one
-   2. sub item two
-   3. sub item three
-2. Item two
-
-### Unordered Lists
-
-* Item one
-* Item two
-* Item three
 
 ## Tables
 
 | Header1 | Header2 | Header3 |
-|:--------|:-------:|--------:|
-| cell1   | cell2   | cell3   |
-| cell4   | cell5   | cell6   |
+| :------ | :-----: | ------: |
+| cell1   |  cell2  |   cell3 |
+| cell4   |  cell5  |   cell6 |
+
 |----
-| cell1   | cell2   | cell3   |
-| cell4   | cell5   | cell6   |
+| cell1 | cell2 | cell3 |
+| cell4 | cell5 | cell6 |
 |=====
-| Foot1   | Foot2   | Foot3
+| Foot1 | Foot2 | Foot3
 {: rules="groups"}
-
-## Code Snippets
-
-```css
-#container {
-  float: left;
-  margin: 0 -240px 0 0;
-  width: 100%;
-}
-```
-
-## Buttons
-
-Make any link standout more when applying the `.btn` class.
-
-```html
-<a href="#" class="btn btn--success">Success Button</a>
-```
-
-<div markdown="0"><a href="#" class="btn">Primary Button</a></div>
-<div markdown="0"><a href="#" class="btn btn--success">Success Button</a></div>
-<div markdown="0"><a href="#" class="btn btn--warning">Warning Button</a></div>
-<div markdown="0"><a href="#" class="btn btn--danger">Danger Button</a></div>
-<div markdown="0"><a href="#" class="btn btn--info">Info Button</a></div>
-
-## Notices
-
-**Watch out!** You can also add notices by appending `{: .notice}` to a paragraph.
-{: .notice}

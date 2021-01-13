@@ -6,7 +6,13 @@ main:
     url: /about/
   - title: "새기는 말"
     url: /one-line-quote/
-    
+  - title: "포트폴리오1"
+    url: /portfolio/
+  - title: "포트폴리오2"
+    url: /portfolio/foo-bar-identity/
+  - title: "포스트"
+    url: /layout/writing-jekyll-posts/
+
   - title: "Sample Posts"
     url: /year-archive/
   - title: "Sample Collections"
