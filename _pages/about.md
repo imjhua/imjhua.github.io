@@ -3,23 +3,33 @@ permalink: /about/
 title: "About"
 ---
 
-🌿 💋 🙏 🥕 🧘‍♀️ 김지혜 🌈 ✨ 🔥 🌴
+## 89년생 / 07학번 / 2012부터~
+
+### 🌿 💋 🙏 🥕 🧘‍♀️ 김지혜 🌈 ✨ 🔥 🌴
 
 어떻게보다는 무엇을해야하는가?를 고민하기위해 노력합니다.
-
----
 
 - FrontEnd Developer
 - Positive Energy
 - Deep Breath 🤗
 - 내면의 미소 😊
-- 삶의 중심을 찾는 여행 👣 
+- 삶의 중심을 찾는 여행 👣
 - 게으름.. 귀차니즘... ➕ 생산성
-- 자기관리 💪
+- 계획하기 📋 자기관리 💪
 
 `Open Mind & Open Relationship & Readership`
 
-## 블로그
+### 경력
+
+{: .no-style .notice--info}
+
+- 2021` KAKAOMOBILITY
+- 2020` 11ST
+- 2019` FREELANCER
+- 2015` START-UP
+- 2012` HOSTWAY R&D
+
+### 블로그
 
 지금까지의 경험들과
 

@@ -1,7 +1,12 @@
 # main links
 main:
+  - title: "Home"
+    url: /
   - title: "About"
     url: /about/
+  - title: "새기는 말"
+    url: /one-line-quote/
+    
   - title: "Sample Posts"
     url: /year-archive/
   - title: "Sample Collections"
