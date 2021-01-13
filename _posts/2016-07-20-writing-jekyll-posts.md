@@ -3,7 +3,7 @@ title: "Layout: Post with Table of Contents"
 header:
   overlay_image: assets/images/sky.jpg
 categories:
-  - Layout
+  - CSS
 ---
 
 첫번째 줄

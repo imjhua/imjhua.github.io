@@ -9,3 +9,8 @@
 ul.no-style {
   list-style-type: none;
 }
+
+.page-full {
+  width: calc(100% - 200px);
+  margin-top: 1em;
+}

@@ -248,7 +248,7 @@ defaults:
       path: ""
       type: posts
     values:
-      layout: single
+      layout: single-full
       author_profile: # true
       read_time: # true
       comments: # true
@@ -282,6 +282,6 @@ defaults:
     values:
       layout: single
       author_profile: true
-      share: true
+      share: # true
 
 github: [metadata]
