@@ -288,5 +288,11 @@ defaults:
       share: # true
       sidebar:
         nav: "resume"
+  # _diaries
+  - scope:
+      path: ""
+      type: diaries
+    values:
+      layout: single
 
 github: [metadata]
