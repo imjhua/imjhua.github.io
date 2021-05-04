@@ -11,7 +11,7 @@ $ curl -L https://get.rvm.io | bash -s stable --ruby # rvm 설치
 $ source ~/.bash_profile # 설치 경로 적용
 $ rvm -v  # rvm 설치 확인
 $ rvm list
-$ rvm use <version>
+$ rvm use <version> # ruby-2.6.0
 $ rvm install <version> # ruby 특정 버전 설치
 $ ruby -v # ruby 버전 확인
 
