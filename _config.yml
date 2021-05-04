@@ -240,6 +240,9 @@ collections:
   portfolio:
     output: true
     permalink: /:collection/:path/
+  diaries:
+    output: true
+    permalink: /:collection/:path/
 
 # Defaults
 defaults:
