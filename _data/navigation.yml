@@ -23,6 +23,8 @@ local:
     url: /diaries/
   - title: "Portfolio"
     url: /portfolio/
+  - title: "Resume"
+    url: /resume/
   - title: "Sitemap"
     url: /sitemap/
 

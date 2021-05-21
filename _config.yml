@@ -234,13 +234,13 @@ compress_html:
 
 # Collections
 collections:
-  docs:
-    output: true
-    permalink: /:collection/:path/
   portfolio:
     output: true
     permalink: /:collection/:path/
   diaries:
+    output: true
+    permalink: /:collection/:path/
+  resume:
     output: true
     permalink: /:collection/:path/
 
@@ -282,10 +282,10 @@ defaults:
       type: diaries
     values:
       layout: single
-  # _docs
+  # _resume
   - scope:
       path: ""
-      type: docs
+      type: resume
     values:
       layout: single
       read_time: false

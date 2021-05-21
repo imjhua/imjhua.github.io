@@ -25,33 +25,56 @@ $ jekyll serve
 
 - GNB 메뉴 정의
 - Sidebar 메뉴 정의
+
+```
+# local links
+local:
+  - title: "Resume"
+    url: /resume/
+
+# sidebar links
+resume:
+  - title: 목록
+    children:
+      - title: "메인"
+        url: /resume/main/
+      - title: "학력"
+        url: /resume/학력/
+```
+
 ## config.yml
 
-
-permalink
-디렉토리에 해당하는 scope 정의.
-
-디렉토리 내 md 파일은 permalink 를 가진다.
-
-
-- /docs/test
+- collection 디렉토리와 permalink 정의 (_로 시작하는 dir)
+- 추가로 collection 으로 정의되는 파일들의 상세 레이아웃을 포함한 설정 기본값 정의 (대상은 _로 시작하는 dir)
+- collection 의 index 페이지는 _page에서 레이아웃을 정의한다.
 
 ```
 # Collections
 collections:
-  docs:
-    output: true
-    permalink: /:collection/:path/
-  portfolio:
+  resume:
     output: true
     permalink: /:collection/:path/
 ```
 
-## layout
+### Layout
 
-### ex
+- 콜렉션: main(+archive), collection(+wide), categories ..
+- 페이지: single, wide ..
+
 
 ```
+---
+title: "Resume"
+permalink: /resume/
+layout: main
+collection: resume
+---
+```
+
+### Markdown file
+
+```
+---
 title: "Layout: Post with Table of Contents"
 header:
   overlay_image: assets/images/sky.jpg
@@ -61,24 +84,37 @@ gallery:
   - url: /assets/sky.jpg
     image_path: assets/images/sky.jpg
     alt: "placeholder image 1"
-  - url: /assets/sky.jpg
-    image_path: assets/images/sky.jpg
-    alt: "placeholder image 2"
-  - url: /assets/sky.jpg
-    image_path: assets/images/sky.jpg
-    alt: "placeholder image 3"
+---
+
+{% include gallery %}
+
+- [Twitter Cards](https://dev.twitter.com/cards/overview)
 ```
 
-### header
+#### header
 
 ```
 header:
   image: assets/images/sky.jpg # 배경
   overlay_image: /assets/images/unsplash-image-1.jpg # 상단 영역만
+  overlay_color: "#333"
   caption: "Photo credit: [**Unsplash**](https://unsplash.com)" # 캡션(이미지 정보)
 ```
+#### categories
+```
+categories:
+  - Layout
+  - Uncategorized
+```
+#### tags
+```
+tags:
+  - edge case
+  - image
+  - layout
+```
 
-### toc
+#### toc
 
 ```
 toc: true
@@ -86,3 +122,4 @@ toc_sticky: true
 toc_label: "Unique Title"
 toc_icon: "heart"
 ```
+

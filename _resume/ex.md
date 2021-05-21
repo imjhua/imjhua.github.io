@@ -1,7 +1,7 @@
 ---
-title: "Test2"
-permalink: /test2/
-excerpt: "How to quickly install and setup Minimal Mistakes for use with GitHub Pages."
+title: ""
+permalink: /resume/ex/
+excerpt: "..."
 last_modified_at: 2020-07-27
 redirect_from:
   - /theme-setup/
