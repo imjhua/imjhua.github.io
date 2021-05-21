@@ -20,7 +20,7 @@ last_modified_at: 2020-05-01T10:15:22-04:00
 
 - [Style](https://mmistakes.github.io/minimal-mistakes/layout-table-of-contents-post/)
 
-- [Code](https://github.com/mmistakes/minimal-mistakes/blob/641ca6f3d8cd8fb0ae24e4f77b2e62a44a65e53b/docs/_posts/2012-01-03-layout-table-of-contents-post.md)
+- [Code](https://raw.githubusercontent.com/mmistakes/minimal-mistakes/641ca6f3d8cd8fb0ae24e4f77b2e62a44a65e53b/docs/_posts/2012-01-03-layout-table-of-contents-post.md)
 
 
 
