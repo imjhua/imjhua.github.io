@@ -21,9 +21,18 @@ $ bundle
 $ jekyll serve
 ```
 
-## test page
+## navigation.yrm
 
-### config.yml
+- GNB 메뉴 정의
+- Sidebar 메뉴 정의
+## config.yml
+
+
+permalink
+디렉토리에 해당하는 scope 정의.
+
+디렉토리 내 md 파일은 permalink 를 가진다.
+
 
 - /docs/test
 
