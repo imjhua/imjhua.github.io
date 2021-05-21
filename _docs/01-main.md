@@ -1,5 +1,5 @@
 ---
-title: "Resume"
+title: Resume
 permalink: /resume/main/
 toc: true
 ---

@@ -11,9 +11,10 @@ title: "About"
 - Deep Breath 🤗
 - 내면의 미소 😊
 - 삶의 중심을 찾는 여행 👣
-- 게으름.. 귀차니즘... ➕ 생산성
+- 게으름➕ 귀차니즘 🔜  생산성
 - 계획하기📋  
 - 자기관리 💪
+- ❓ 와 ❗️ 사이에서..
 
 `Open Mind & Open Relationship & Readership`
 
