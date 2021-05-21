@@ -1,5 +1,5 @@
 ---
-title: "Remarks"
+title: Remarks
 permalink: /remarks/
 header:
   overlay_color: "#333"
@@ -7,6 +7,8 @@ header:
 
 - 감사하기
 - 불평은 그만해
+- 에잇! 그냥 하자!
+- 기쁜맘으로 할게 아니면.. 안하느니만 못하지
 - 핵심콕콕! 주저리주저리 ✖️
 - 배려가 순수하지 않으면 그것은 배려가 아니다. 강요다
 - 어떻게 보다는 무엇을 고민하자
