@@ -21,11 +21,11 @@ title: "About"
 
 {: .no-style .notice--info}
 
-- 2021` KAKAOMOBILITY
-- 2020` 11ST
-- 2019` FREELANCER
-- 2015` START-UP
-- 2012` HOSTWAY R&D
+- 2021` Kakaomobility
+- 2020` 11st
+- 2019` Freelancer
+- 2015` Start-up
+- 2012` Hostway R&D
 
 ### 블로그
 

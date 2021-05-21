@@ -266,6 +266,22 @@ defaults:
     values:
       layout: splash
       author_profile: # true
+  # _portfolio
+  - scope:
+      path: ""
+      type: portfolio
+    values:
+      layout: single
+      author_profile: true
+      share: # true
+      sidebar:
+        nav: "portfolio"
+  # _diaries
+  - scope:
+      path: ""
+      type: diaries
+    values:
+      layout: single
   # _docs
   - scope:
       path: ""
@@ -277,22 +293,6 @@ defaults:
       share: false
       comments: false
       sidebar:
-        nav: "docs"
-  # _portfolio
-  - scope:
-      path: ""
-      type: portfolio
-    values:
-      layout: single
-      author_profile: true
-      share: # true
-      sidebar:
         nav: "resume"
-  # _diaries
-  - scope:
-      path: ""
-      type: diaries
-    values:
-      layout: single
 
 github: [metadata]

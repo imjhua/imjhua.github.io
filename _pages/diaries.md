@@ -1,7 +1,7 @@
 ---
 title: Diary
-layout: collection
 permalink: /diaries/
+layout: collection
 collection: diaries
 entries_layout: grid
 classes: wide

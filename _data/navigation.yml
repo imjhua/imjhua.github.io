@@ -4,21 +4,6 @@ main:
     url: /
   - title: "About"
     url: /about/
-  # - title: "새기는 말"
-  #   url: /one-line-quote/
-  # - title: "포트폴리오1"
-  #   url: /portfolio/
-  # - title: "포트폴리오2"
-  #   url: /portfolio/foo-bar-identity/
-  # - title: "포스트"
-  #   url: /css/writing-jekyll-posts/
-
-  # - title: "Sample Posts"
-  #   url: /year-archive/
-  # - title: "Sample Collections"
-  #   url: /collection-archive/
-  # - title: "Sitemap"
-  #   url: /sitemap/
 
 # local links
 local:
@@ -26,20 +11,14 @@ local:
     url: /
   - title: "About"
     url: /about/
-  - title: "새기는 말"
-    url: /one-line-quote/
-  - title: "다이어리"
+  - title: "Posts"
+    url: /posts/
+  - title: "Remarks"
+    url: /remarks/
+  - title: "Diaries"
     url: /diaries/
-  - title: "포트폴리오"
+  - title: "Portfolio"
     url: /portfolio/
-  - title: "포트폴리오2"
-    url: /portfolio/foo-bar-identity/
-  - title: "포스트"
-    url: /css/writing-jekyll-posts/
-  - title: "Sample Posts"
-    url: /year-archive/
-  - title: "Sample Collections"
-    url: /collection-archive/
   - title: "Sitemap"
     url: /sitemap/
 
@@ -48,7 +27,7 @@ local:
 docs:
   - title: Getting Started
     children:
-      - title: "Quick-Start Guide"
+      - title: "Quick-Start Guideeeee"
         url: /docs/quick-start-guide/
       - title: "Structure"
         url: /docs/structure/
@@ -71,32 +50,11 @@ docs:
       - title: "Layouts"
         url: /docs/layouts/
 
-
-
-
 # documentation links
 resume:
-  - title: 경력
+  - title: 목록
     children:
-      - title: "Quick-Start Guide"
-        url: /docs/quick-start-guide/
-      - title: "Structure"
-        url: /docs/structure/
-      - title: "Installation"
-        url: /docs/installation/
-      - title: "Upgrading"
-        url: /docs/upgrading/
-  - title: Customization
-    children:
-      - title: "Configuration"
-        url: /docs/configuration/
-      - title: "Overriding Theme Defaults"
-        url: /docs/overriding-theme-defaults/
-      - title: "Navigation"
-        url: /docs/navigation/
-      - title: "UI Text"
-        url: /docs/ui-text/
-      - title: "Authors"
-        url: /docs/authors/
-      - title: "Layouts"
-        url: /docs/layouts/        
+      - title: "메인"
+        url: /resume/main/
+      - title: "학력"
+        url: /resume/학력/
