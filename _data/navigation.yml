@@ -28,7 +28,7 @@ local:
   - title: "Sitemap"
     url: /sitemap/
 
-# documentation links
+# sidebar links
 resume:
   - title: 목록
     children:
