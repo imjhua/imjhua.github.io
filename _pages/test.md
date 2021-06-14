@@ -15,14 +15,15 @@ layouts_gallery:
 last_modified_at: 2020-05-01T10:15:22-04:00
 ---
 
+**ProTip:** [스타일데모](https://mmistakes.github.io/minimal-mistakes/docs/quick-start-guide/)
+
+**ProTip:** [코드검색](https://github.com/mmistakes/minimal-mistakes/search?q=ProTip)
 
 ## link
 
 - [Style](https://mmistakes.github.io/minimal-mistakes/layout-table-of-contents-post/)
 
 - [Code](https://raw.githubusercontent.com/mmistakes/minimal-mistakes/641ca6f3d8cd8fb0ae24e4f77b2e62a44a65e53b/docs/_posts/2012-01-03-layout-table-of-contents-post.md)
-
-
 
 🌿 💋 🙏 🥕 🧘‍♀️ Minimal Mistakes is a flexible two-column Jekyll theme. Perfect for hosting your personal site, blog, or portfolio on GitHub or self-hosting on your own server. As the name implies --- styling is purposely minimalistic to be enhanced and customized by you :smile:.
 
@@ -45,19 +46,17 @@ last_modified_at: 2020-05-01T10:15:22-04:00
 
 ## Demo Pages
 
-| Name                                        | Description                                           |
-| ------------------------------------------- | ----------------------------------------------------- |
-| [Post with Header Image][header-image-post] | A post with a large header image. |
+| Name                                            | Description                                                   |
+| ----------------------------------------------- | ------------------------------------------------------------- |
+| [Post with Header Image][header-image-post]     | A post with a large header image.                             |
 | [HTML Tags and Formatting Post][html-tags-post] | A variety of common markup showing how the theme styles them. |
-| [Syntax Highlighting Post][syntax-post] | Post displaying highlighted code. |
-| [Post with a Gallery][gallery-post] | A post showing several images wrapped in `<figure>` elements. |
-| [Sample Collection Page][sample-collection] | Single page from a collection. |
-| [Categories Archive][categories-archive] | Posts grouped by category. |
-| [Tags Archive][tags-archive] | Posts grouped by tag. |
+| [Syntax Highlighting Post][syntax-post]         | Post displaying highlighted code.                             |
+| [Post with a Gallery][gallery-post]             | A post showing several images wrapped in `<figure>` elements. |
+| [Sample Collection Page][sample-collection]     | Single page from a collection.                                |
+| [Categories Archive][categories-archive]        | Posts grouped by category.                                    |
+| [Tags Archive][tags-archive]                    | Posts grouped by tag.                                         |
 
 For even more demo pages check the [posts archive][year-archive].
-
-
 
 ---
 

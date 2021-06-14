@@ -5,6 +5,8 @@ permalink: /color/
 
 자주사용되는 색상코드는 같은 색상이라도 그 표기법에 따라 다르게 표기됩니다. 색상은 0~255 총 256개의 색상이 제공됩니다.
 
+**ProTip:** Tailwind 색상코드 참고 [Color Page](https://davidpiesse.github.io/tailwind-md-colours/)
+
 ## 일반 색명(HTML / CSS Color Name)
 
 색상을 문자열로 지정합니다.
@@ -69,4 +71,3 @@ RGB 값은 빛의 3원색인 빨강색, 녹색, 파랑색 으로 이뤄진 값�
 - Blue:rgb(0, 0, 255) #0000FF
 - White: rgb(255, 255, 255) #FFFFFF
 - Black: rgb(0, 0, 0) #000000
-
